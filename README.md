@@ -1,1 +1,2 @@
-# SEM_ANSIBLE_LNX_BASIC_INSTALL
+# SEM_LNX_PROVISIONING
+code for doing common tasks to new nodes

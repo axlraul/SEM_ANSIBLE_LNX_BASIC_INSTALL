@@ -1,0 +1,9 @@
+- name: Instalar Git, wget y net-tools
+  package:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - git
+    - wget
+    - net-tools
+  when: ansible_pkg_mgr == 'apt' or ansible_pkg_mgr == 'dnf' or ansible_pkg_mgr == 'yum'
