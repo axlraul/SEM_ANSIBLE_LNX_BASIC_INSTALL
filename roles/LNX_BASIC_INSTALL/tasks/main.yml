@@ -6,4 +6,5 @@
     - git
     - wget
     - net-tools
+    - nmap
   when: ansible_pkg_mgr == 'apt' or ansible_pkg_mgr == 'dnf' or ansible_pkg_mgr == 'yum'
